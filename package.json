@@ -1,0 +1,34 @@
+{
+  "name": "boilerplate-generator",
+  "version": "1.0.0",
+  "description": "A cli for creating bolierpalte starter code 🚀",
+  "main": "bin/index.ts",
+  "type": "module",
+  "bin": {
+    "bolierpalte-generator": "bin/index.ts"
+  },
+  "scripts": {
+    "start": "node ./bin/index.ts",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "bugs": {
+    "url": "https://github.com/RahulMandyal1/boilerplate-generator/issues"
+  },
+  "keywords": [
+    "boilerplate_code",
+    "react_boilerpalte_code",
+    "node_boilerplatecode",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=12.22.12",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.11",
+    "chalk": "^5.1.2"
+  }
+}
